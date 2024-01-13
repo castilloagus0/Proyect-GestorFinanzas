@@ -1,0 +1,10 @@
+<button class="iniciar-sesion" onclick="accion_a()">Crear Usuario</button>
+            <div class="container-button-a desaparece">
+                <label id="user"></label>
+                <input type="text" placeholder="Usuario" id="user">
+            </div>
+            <div class="container-button-a desaparece">
+                <label for="password"></label>
+                <input id="password" placeholder="Constraseña" type="password">
+                <button onclick="save()">Guardar</button>
+            </div>

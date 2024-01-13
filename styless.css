@@ -1,0 +1,63 @@
+/*centra la imagen al medio */
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+}
+
+.container{
+    background: #378495;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+}
+
+.iniciar-sesion{
+    background: #D9D9D9;
+    color: #000;
+    justify-content: center;
+    width: 200px;
+    margin: 7px;
+    padding: 7px;
+    display: flex;
+}
+/*momento en que se pone el cursor encima*/
+
+.iniciar-sesion:hover{
+    background-color:#000;
+    color:#D9D9D9;
+}
+/*momento en que se clickea */
+.iniciar-sesion:active{
+    background-color: #647D87;
+    color:#D9D9D9;
+}
+
+.container-button{
+    background:#D9D9D9 ;
+    color: #647D87;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+
+}
+.container-button-a{
+    background:#D9D9D9 ;
+    color: #647D87;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+
+}
+
+.desaparece{
+    display: none;
+}
+
+@media (max-width: 600px){
+
+}

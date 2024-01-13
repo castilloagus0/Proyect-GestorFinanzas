@@ -1,0 +1,42 @@
+<!--pagina la cual se va a mostrar primero, donde su contenido es un login-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <script src="login.js"></script>
+    <title>Gestor Finanzas</title>
+</head>
+<body>
+    <div class="header">
+        <h3>Gestor Finanzas</h3>
+        <div class="header-img"><img src="logo-maser.png" alt=""></div>
+    </div>
+    <div class="container">
+        <div>
+            <button class="iniciar-sesion" onclick="accion()">Iniciar Sesión</button>
+            <div class="container-button desaparece">
+                <label for="Usuario"></label>
+                <input type="text" placeholder="Usuario" id="user">
+            </div>
+            <div class="container-button desaparece">
+                <label for="Contraseña"></label>
+                <input placeholder="Constraseña" type="password"id="password">
+                <button onclick="validarLogin()">Ingresar</button>
+            </div>
+            <!-------------------------------------------------------------------->
+            <button class="iniciar-sesion" onclick="accion_a()">Crear Usuario</button>
+            <div class="container-button-a desaparece">
+                <label for="Usuario"></label>
+                <input type="text" placeholder="Usuario" id="user">
+            </div>
+            <div class="container-button-a desaparece">
+                <label for="password"></label>
+                <input placeholder="Constraseña" type="password" id="password">
+                <button onclick="saveLocalStorage()">Guardar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
